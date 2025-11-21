@@ -504,7 +504,7 @@ def get_pair_data(asset_id_hex):
 
     choices = []
     if pair_launcher_id is not None:
-            possible_pairs.append((pair_launcher_id, None, 997))
+            choices.append((pair_launcher_id, None, 997))
 
     if rcat_pairs is not None:
         for rcat_pair in rcat_pairs:
